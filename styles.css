@@ -1,3 +1,86 @@
-.logo {
-	widht: 50px;
+@font-face {
+  font-family: "Equestria";
+  src: url("Equestria.ttf") format("truetype");
 }
+
+body {
+	font-family: Arial, sans-serif;
+	background: #ffffff;
+	color: #000;
+	margin: 0;
+}
+
+h2 {
+	font-size: 50px;
+	font-family: "Equestria";
+	color: #ff4076;
+}
+
+.banner {
+	text-align: center;
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+	height: 23vh;
+	background: url("banner.png") center/cover no-repeat;	
+}
+
+.logo {
+	width: 400px;
+	max-width: 90%;
+}
+
+main {
+	max-width: 700px;
+	margin: auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 25px;
+}
+
+a {
+	color: blue;
+	text-decoration: underline;
+}
+
+.links {
+	display: flex;
+	gap: 14px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.links a {
+	display: inline-flex;
+}
+
+.links svg {
+	width: 28px;
+	height: 28px;
+	color: #ff4076;
+	transition: 0.2s;
+}
+
+.links a:hover svg {
+	color: #ff759c;
+}
+
+.pony {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.pony img {
+	width: 250px;
+	max-width: 80%;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	border-top: 1px solid #ccc;
+	font-size: 14px;
+}
+
